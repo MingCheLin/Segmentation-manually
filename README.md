@@ -3,7 +3,8 @@ SEGMENT function provide a manually segment method in Matlab.It's working based 
 
 
 [Mask] = segment(Image,\_\_\_) <br>
->show input image at left side. Enable user to segment on image manually and generate the mask as output.Input image data must with format X*Y*frame. Or if input image is RGB image, the format must be X\*Y\*RGB\*frame.
+>show input image at left side. Enable user to segment on image manually and generate the mask as output.Input image data must with format X*Y*frame. Or if input image
+>is RGB image, the format must be X\*Y\*RGB\*frame.
 
 [Mask,Edge] = segment(Image,\_\_\_) <br>
 >not only output the segmentation area but also output the edge.
