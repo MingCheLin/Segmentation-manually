@@ -8,7 +8,7 @@ SEGMENT function provide a manually segment method in Matlab.It's working based 
 \[Mask,Edge] = segment(Image,\_\_\_) <br>
 >not only output the segmentation area but also output the edge.
 <br>
-**If not satiftied with previous segmentation, enter 'Y' or 'y' to redraw the segmentation.Otherwise, press enter to do the next frame.
+If not satiftied with previous segmentation, enter 'Y' or 'y' to redraw the segmentation.Otherwise, press enter to do the next frame.
 <br>
 optional input arguments including CM, RGB, SAVEPOINT and SAVE:<br>
 >      CM :         double. Change the display colormap in image, default as gray(256) <br>
