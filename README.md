@@ -10,12 +10,12 @@ If not satiftied with previous segmentation, enter 'Y' or 'y' to redraw the segm
 
 optional input arguments including CM, RGB, SAVEPOINT and SAVE:
       CM : double. Change the display colormap in image, default as gray(256)
-      RGB : logical. If the input image is 3-dimensional(x\*y\*frame) it will 
-            default as False.Or it will be True and display image as RGB
-            image. But if input image is RGB image and only have 1 frame
-            please change RGB as True to prevent SEGMENT mistaken input
-            image as 3 frames gray-scaled image.
-      SAVEPOINT : double. Save segmentation as mat file with interval of 
-                  SAVEPOINT, default as 0 means don't save.
-      SAVE : logical. Save all output as mat file, default as False(not
+      RGB : logical. If the input image is 3-dimensional(x\*y\*frame) it will \n
+            default as False.Or it will be True and display image as RGB \n
+            image. But if input image is RGB image and only have 1 frame \n
+            please change RGB as True to prevent SEGMENT mistaken input \n
+            image as 3 frames gray-scaled image. \n
+      SAVEPOINT : double. Save segmentation as mat file with interval of \n
+                  SAVEPOINT, default as 0 means don't save. \n
+      SAVE : logical. Save all output as mat file, default as False(not \n
              save.)
