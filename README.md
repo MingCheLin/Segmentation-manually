@@ -11,7 +11,7 @@ SEGMENT function provide a manually segment method in Matlab.It's working based 
 
 **If not satiftied with previous segmentation, enter 'Y' or 'y' to redraw the segmentation.Otherwise, press enter to do the next frame.**
 
-optional input arguments including CM, RGB, SAVEPOINT and SAVE:<br>
+#optional input arguments including CM, RGB, SAVEPOINT and SAVE:<br>
 >CM :double. Change the display colormap in image, default as gray(256) <br>
 >RGB :logical. If the input image is 3-dimensional(x\*y\*frame) it will default as False.Or it will be True and display image as RGB image. But if input image is RGB image and only have 1 frame please change RGB as True to prevent SEGMENT mistaken input image as 3 frames gray-scaled image. <br>
 >SAVEPOINT:double. Save segmentation as mat file with interval of <br>SAVEPOINT, default as 0 means don't save. <br>
